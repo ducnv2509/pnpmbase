@@ -1,12 +1,12 @@
 # pnpmbase
-+ install pnpm 
++ install pnpm: 
 npm i -g pnpm 
-+ install library
++ install library:
 pnpm i 
-+ build all
++ build all: 
 pnpm --parallel start:dev
-+ build one moudle
++ build one moudle: 
 pnpm --filter ... build
-+ lint moudle
++ lint moudle: 
 pnpm --filter ... lint
 
